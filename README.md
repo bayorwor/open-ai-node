@@ -21,10 +21,12 @@ This project contains node js integration with OPEN AI API and Also has NextJs w
 ## Art
 
 ### Desktop View
+
 <br>
 <img width="1680" alt="Screenshot 2023-06-03 at 23 59 01" src="https://github.com/bayorwor/open-ai-node/assets/49689322/d4d7cdb9-4446-4251-bc09-f67a3f8068f5">
 
 ### Mobile View
+
 <img width="391" alt="Screenshot 2023-06-03 at 23 58 49" src="https://github.com/bayorwor/open-ai-node/assets/49689322/681170ed-1d73-4114-904c-9c41b6d11b6a">
 
 ## Getting Started
@@ -84,7 +86,7 @@ C:\path\to\project> cd server && npm install
 
 ## Inspiration
 
-**Etornam Sunu Bright**
+**Abudu Bayorwor**
 
 - He was the Facilitator for this session 🙏🤝🙈
 
