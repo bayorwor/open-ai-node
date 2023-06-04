@@ -12,6 +12,7 @@ export default function Home() {
   const [generatedContent, setGeneratedContent] = useState<contentPros[]>([]);
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleSend = async (e: any) => {
     e.preventDefault();
@@ -46,8 +47,20 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col lg:flex-row min-h-screen">
-      <aside className="w-full lg:w-60 bg-slate-600">
+    <main className="flex flex-col lg:flex-row min-h-screen overflow-hidden">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="text-white mr-auto text-3xl w-auto p-4 block lg:hidden"
+      >
+        <i className="ri-menu-2-line"></i>
+        {""}
+      </button>
+
+      <aside
+        className={`w-full lg:w-60 bg-slate-600 ${
+          isOpen ? "block transition-all ease-out duration-500" : "hidden"
+        } lg:block`}
+      >
         <nav>
           <h1 className="text-white text-center py-4">History</h1>
           {generatedContent?.map((content: contentPros, i: number) => (
@@ -59,12 +72,12 @@ export default function Home() {
           ))}
         </nav>
       </aside>
-      <div className="flex-1">
+      <div className="flex-1" onClick={() => setIsOpen(false)}>
         <section className="h-screen w-full relative">
-          <h1 className="text-3xl text-center py-3 text-teal-300">
-            Clone Me AI
-          </h1>
-          <section className="mx-6 mt-4 mb-20 h-[85vh] overflow-auto py-4 hide-scroll-bar">
+          {/* <h1 className="text-3xl text-center py-3 text-teal-300">
+
+          </h1> */}
+          <section className="mx-2 lg:mx-6 lg:mt-10 mb-10 h-[85vh] overflow-auto py-4 lg:px-40 hide-scroll-bar">
             {generatedContent?.map((content: contentPros, i: number) => (
               <div key={i} className="rounded-md shadow-lg m-4 bg-[#1E293B]">
                 <h2 className="w-full border-b-2 bg-[#293548] text-slate-400 p-2 rounded-md border-l-4 border-gray-600">
@@ -98,8 +111,9 @@ export default function Home() {
             >
               <input
                 type="text"
+                multiple={true}
                 className="flex-1 focus:outline-none bg-transparent text-white mr-2 my-2"
-                placeholder="Enter Text"
+                placeholder="what should I help your with?..."
                 value={question}
                 onChange={(e) => setQuestion(e.target.value)}
               />
