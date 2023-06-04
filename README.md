@@ -38,7 +38,6 @@ open your terminal or cmd
 
 ```
 cd folder/to/clone-into/
-```
 
 git clone https://github.com/bayorwor/open-ai-node
 
@@ -52,7 +51,6 @@ To Run Client:
 ```
 
 C:\path\to\project> cd client && npm install
-
 ```
 
 then run to server:
