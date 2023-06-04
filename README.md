@@ -7,8 +7,8 @@ Two different application for Nodejs and NextJs, both integrated with OPEN AI AP
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RegNex/Tasky/graphs/commit-activity)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/RegNex/)
 [![ForTheBadge Typescript](https://img.shields.io/badge/typescript-made%20with%20typscript-blue.svg)](https://www.typescriptlang.org/)
-[![ForTheBadge NextJs](https://img.shields.io/badge/IOS-IOS%20Supported-lightgrey.svg)](https://nextjs.org)
-[![ForTheBadge Node](https://img.shields.io/badge/android-android%20supported-green.svg)](https://nodejs.org)
+[![ForTheBadge NextJs](https://img.shields.io/badge/nextjs%20Supported-lightgrey.svg)](https://nextjs.org)
+[![ForTheBadge Node](https://img.shields.io/badge/nodejs%20supported-green.svg)](https://nodejs.org)
 
 </p>
 
