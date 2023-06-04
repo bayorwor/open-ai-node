@@ -23,11 +23,13 @@ This project contains node js integration with OPEN AI API and Also has NextJs w
 ### Desktop View
 
 <br>
-<img width="1680" alt="Screenshot 2023-06-03 at 23 59 01" src="https://github.com/bayorwor/open-ai-node/assets/49689322/d4d7cdb9-4446-4251-bc09-f67a3f8068f5">
+
+<img width="1680" alt="Screenshot 2023-06-03 at 23 59 01" src="https://github.com/bayorwor/open-ai-node/assets/49689322/676a3329-0d47-4319-a90c-c94c204df42e">
 
 ### Mobile View
 
-<img width="391" alt="Screenshot 2023-06-03 at 23 58 49" src="https://github.com/bayorwor/open-ai-node/assets/49689322/681170ed-1d73-4114-904c-9c41b6d11b6a">
+<img width="391" alt="Screenshot 2023-06-03 at 23 58 49" src="https://github.com/bayorwor/open-ai-node/assets/49689322/c3595d1d-efe7-4002-b8c4-f57995b02514">
+
 
 ## Getting Started
 
