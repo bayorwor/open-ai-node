@@ -1,38 +1,35 @@
-# contactapp
+# OPEN AI CLONE
 
-A contact list UI clone for trainees during a national mobile development training session
+Two different application for Nodejs and NextJs, both integrated with OPEN AI API
 
 <p align="center">
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RegNex/Tasky/graphs/commit-activity)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/RegNex/)
-[![ForTheBadge made-with-flutter](https://img.shields.io/badge/flutter-made%20with%20flutter-blue.svg)](https://flutter.dev)
-[![ForTheBadge ios-supported](https://img.shields.io/badge/IOS-IOS%20Supported-lightgrey.svg)](https://flutter.dev)
-[![ForTheBadge ios-android](https://img.shields.io/badge/android-android%20supported-green.svg)](https://flutter.dev)
+[![ForTheBadge Typescript](https://img.shields.io/badge/typescript-made%20with%20typscript-blue.svg)](https://www.typescriptlang.org/)
+[![ForTheBadge NextJs](https://img.shields.io/badge/IOS-IOS%20Supported-lightgrey.svg)](https://nextjs.org)
+[![ForTheBadge Node](https://img.shields.io/badge/android-android%20supported-green.svg)](https://nodejs.org)
 
 </p>
 
-This project was built during a training session and improved upon it after the training.
+This project was built with the mindset of exploring OPEN AI API.
 
 <p>
-Firebase was used as Backend as a service for the application. Tools used in firebase include firestore, authntication and storage as a bucket for images
+This project contains node js integration with OPEN AI API and Also has NextJs with OPEN AI integrations. I did not connect the two Node web service to the Next application because I am testing OPEN AI API on NextJs separately from Nodejs.
 </p>
 
 ## Art
 
+### Desktop View
 <br>
 <img width="1680" alt="Screenshot 2023-06-03 at 23 59 01" src="https://github.com/bayorwor/open-ai-node/assets/49689322/d4d7cdb9-4446-4251-bc09-f67a3f8068f5">
+
+### Mobile View
 <img width="391" alt="Screenshot 2023-06-03 at 23 58 49" src="https://github.com/bayorwor/open-ai-node/assets/49689322/681170ed-1d73-4114-904c-9c41b6d11b6a">
 
-<tr>
-    <td>
-       <img width="350" align="left" alt="Screen Shot 2021-11-25 at 3 25 58 PM" src="https://user-images.githubusercontent.com/49689322/143492232-95050a8b-f5e5-4437-bff1-ec4f19e94c6d.png">
-<img width="350" alt="Screen Shot 2021-11-25 at 3 25 19 PM" src="https://user-images.githubusercontent.com/49689322/143492251-9f8097f7-47b2-49f4-bc3b-a444912c2534.png">
-  </td> 
-</tr>
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starter pack for developers who want to integrate nodejs with OPEN AI or NextJS with OPEN AI applications.
 
 To clone this project,
 open your terminal or cmd
@@ -41,62 +38,26 @@ open your terminal or cmd
 cd folder/to/clone-into/
 ```
 
-git clone https://github.com/bayorwor/familiciousapp
+git clone https://github.com/bayorwor/open-ai-node
 
 ```
 
 Then
-locate the project on your system and open with android studio or Vscode or intellij IDE.
+locate the project on your system and open with Termainal Or CommandLine.
 
-To Run:
-
-```
-
-C:\path\to\project> flutter pub get
+To Run Client:
 
 ```
 
-then run:
+C:\path\to\project> cd client && npm install
 
 ```
 
-C:\path\to\project> flutter run
+then run to server:
 
 ```
 
-## Build release version
-
-```
-
-run: flutter build <OS PLATFORM> e.g flutter build ios --release
-
-```
-
-## Switch Theme
-
-**Automatically switch theme based on system settings**
-
-## Resources
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.io/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Prerequisites
-
-What things you need to run the app
-
-```
-
-- Android Studio/Vscode/Intellij IDE
-- Flutter SDK
-- Android SDK
-- MacBook / Windows / Linux
+C:\path\to\project> cd server && npm install
 
 ```
 
